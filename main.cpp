@@ -318,7 +318,8 @@ int main()
     {
         string xmove;
         cout << "X Move: ";
-        cin >> xmove;
+        getline(cin, xmove);
+        //cin >> xmove;
         cout << endl;
         if(xmove != "1"&&xmove != "2"&&xmove != "3"&&xmove != "4"&&xmove != "5"&&xmove != "6"&&xmove != "7"&&xmove != "8"&&xmove != "9") //check if it's a number
         {
@@ -353,7 +354,8 @@ int main()
         {
             string ymove;
             cout << "O Move: ";
-            cin >> ymove;
+            getline(cin, ymove);
+            //cin >> ymove;
             cout << endl;
 
             if(ymove != "1" && ymove != "2"&& ymove != "3"&&ymove != "4"&&ymove != "5"&&ymove != "6"&&ymove != "7"&&ymove != "8"&&ymove != "9")
