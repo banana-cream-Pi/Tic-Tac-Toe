@@ -29,7 +29,7 @@ bool checkWin(string board)
         wintext += x;
         wintext +="--\n";
         board.replace(17,18, wintext);
-        cout << endl << board <<endl;;
+        cout << endl << board <<endl;
         run = false;
         return true;
     }
@@ -44,7 +44,7 @@ bool checkWin(string board)
         wintext += x;
         wintext +="--\n";
         board.replace(71,18, wintext);
-        cout << endl << board <<endl;;
+        cout << endl << board <<endl;
         run = false;
         return true;
     }
@@ -73,7 +73,7 @@ bool checkWin(string board)
         board[91] = '|';
         board[109] = '|';
         board[145] = '|';
-        cout << board <<endl;;
+        cout << board <<endl;
         winner = "X";
         run = false;
         return true;
@@ -88,7 +88,7 @@ bool checkWin(string board)
         board[97] = '|';
         board[115] = '|';
         board[151] = '|';
-        cout << board <<endl;;
+        cout << board <<endl;
         run = false;
         return true;
     }
@@ -100,7 +100,7 @@ bool checkWin(string board)
         board[103] = '|';
         board[121] = '|';
         board[157] = '|';
-        cout << board <<endl;;
+        cout << board <<endl;
         winner = "X";
         run = false;
         return true;
@@ -177,7 +177,7 @@ bool checkWin(string board)
         wintext += o;
         wintext +="--\n";
         board.replace(17,18, wintext);
-        cout << board <<endl;;
+        cout << board <<endl;
         run = false;
         return true;
     }
@@ -192,7 +192,7 @@ bool checkWin(string board)
         wintext += o;
         wintext +="--\n";
         board.replace(71,18, wintext);
-        cout << board <<endl;;
+        cout << board <<endl;
         run = false;
         return true;
     }
@@ -207,7 +207,7 @@ bool checkWin(string board)
         wintext += o;
         wintext +="--\n";
         board.replace(125,18, wintext);
-        cout << board <<endl;;
+        cout << board <<endl;
         run = false;
         return true;
     }
@@ -222,7 +222,7 @@ bool checkWin(string board)
         board[91] = '|';
         board[109] = '|';
         board[145] = '|';
-        cout << board <<endl;;
+        cout << board <<endl;
         run = false;
         return true;
     }
@@ -235,7 +235,7 @@ bool checkWin(string board)
         board[97] = '|';
         board[115] = '|';
         board[151] = '|';
-        cout << board <<endl;;
+        cout << board <<endl;
         run = false;
         return true;
     }
@@ -248,7 +248,7 @@ bool checkWin(string board)
         board[103] = '|';
         board[121] = '|';
         board[157] = '|';
-        cout << board <<endl;;
+        cout << board <<endl;
         run = false;
         return true;
     }
